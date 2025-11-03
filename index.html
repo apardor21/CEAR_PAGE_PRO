@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corporación Educativa Antonio Ricaurte</title>
+
+  <!-- Materialize CSS -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome para íconos -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Preloader institucional -->
+<div id="preloader">
+  <div class="preloader-content">
+    <img src="LOGO.png" alt="Escudo Colegio" />
+    <h2>“Instruye al niño en su camino,<br>y aun cuando fuere viejo no se apartará de él.”</h2>
+    <h5>Proverbios 22:6</h5>
+  </div>
+</div>
+
+<!-- Barra superior de contacto -->
+<div class="top-bar  yellow darken-2">
+  <div class="container top-bar-content">
+    <div class="contact-left">
+      <a href="https://wa.me/573044017219" target="_blank" class="contact-item">
+        <i class="fab fa-whatsapp"></i> 304-401-7291
+      </a>
+      <a href="mailto:notascear@gmail.com" class="contact-item">
+        <i class="fas fa-envelope"></i> notascear@gmail.com
+      </a>
+    </div>
+    <div class="contact-right">
+      <a href="https://www.instagram.com/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://goo.gl/maps/" target="_blank" class="social-icon"><i class="fas fa-map-marker-alt"></i></a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Barra de navegación -->
+  <div class="navbar-fixed">
+    <nav class="indigo darken-4">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo">
+  <img src="LOGO.png" alt="Escudo Colegio" class="logo-escudo" />
+  Antonio Ricaurte
+</a>
+
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#mision">Misión</a></li>
+          <li><a href="#vision">Visión</a></li>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#simbolos">Símbolos</a></li>
+          <li><a href="#himno">Himno</a></li>
+          <li><a href="#normatividad">Normatividad</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Menú lateral móvil -->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#mision">Misión</a></li>
+    <li><a href="#vision">Visión</a></li>
+    <li><a href="#historia">Historia</a></li>
+    <li><a href="#simbolos">Símbolos</a></li>
+    <li><a href="#himno">Himno</a></li>
+    <li><a href="#normatividad">Normatividad</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+
+  <!-- Portada principal -->
+ <!-- Portada principal -->
+<section class="hero">
+  <div class="container hero-flex">
+    <!-- Texto a la izquierda -->
+    <!-- Texto a la izquierda -->
+<div class="hero-content left-align">
+  <h5>
+    <blockquote>
+        “Instruye al niño en su camino, y aun cuando fuere viejo <br>
+         no se apartará de él.”
+        <br />
+        <em>Proverbios 22:6</em>
+      </blockquote>
+      </h5>
+</div>
+
+
+    <!-- Carrusel institucional a la derecha -->
+    <div class="hero-image">
+      <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!">
+          <img src="imagen3.jpeg" alt="Logo Colegio">
+        </a>
+        <a class="carousel-item" href="#two!">
+          <img src="imagen1.png" alt="Fachada del colegio">
+        </a>
+        <a class="carousel-item" href="#three!">
+          <img src="imagen2.png" alt="Estudiantes">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal de imagen ampliada -->
+<div id="modal-imagen" class="modal">
+  <div class="modal-content center-align">
+    <img id="imagen-modal" src="" alt="Imagen ampliada" class="responsive-img" />
+  </div>
+</div>
+
+
+<!-- ===================================== -->
+<!-- SECCIÓN ACERCA DE NOSOTROS -->
+<!-- ===================================== -->
+<h4 class="center-align">Bienvenidos a Nuestra Escuela</h4>
+<section id="acerca" class="section grey lighten-5">
+  <div class="container">
+    <div class="row valign-wrapper">
+      <div class="col s12 m6">
+        <img src="imagen4.jpeg" alt="Equipo institucional" class="responsive-img acerca-img z-depth-2" />
+      </div>
+      <div class="col s12 m6">
+        <h4 class="blue-text text-darken-3">Acerca de Nosotros</h4>
+        <p>
+          La <strong>Corporación Educativa Antonio Ricaurte</strong> es una institución comprometida con la
+          formación integral de sus estudiantes, basada en valores cristianos, la excelencia académica y el
+          fortalecimiento de las competencias ciudadanas.
+        </p>
+        <p>
+          Contamos con un equipo docente altamente calificado y comprometido con brindar un acompañamiento cercano,
+          fomentando el amor por el aprendizaje, la fe y la construcción de una sociedad más justa y solidaria.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+    <!-- ===================================== -->
+    <!-- SECCIÓN DE NOTICIAS INSTITUCIONALES   -->
+    <!-- ===================================== -->
+<section id="noticias" class="section">
+  <div class="container">
+    <h4 class="center-align">Noticias Institucionales</h4>
+
+    <div class="carousel-news fade-carousel">
+      <div class="fade-slide active" data-desc="Celebramos con orgullo los 30 años de la Corporación Educativa Antonio Ricaurte, comprometidos con la formación integral.">
+        <img src="noticia1.png" alt="Aniversario del colegio">
+      </div>
+      <div class="fade-slide" data-desc="Nuestros estudiantes destacaron en las Olimpiadas de Matemáticas 2025, representando a la institución con excelencia.">
+        <img src="noticia2.png" alt="Olimpiadas de matemáticas">
+      </div>
+      <div class="fade-slide" data-desc="Inauguramos el nuevo laboratorio de ciencias, un espacio moderno para fomentar el aprendizaje práctico.">
+        <img src="noticia3.png" alt="Nuevo laboratorio">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Modal para noticias -->
+<div id="modal-noticia" class="modal">
+  <div class="modal-content center-align">
+    <img id="imagen-noticia-modal" src="" alt="Imagen noticia" class="responsive-img" />
+    <p id="descripcion-noticia" class="descripcion-noticia"></p>
+  </div>
+</div>
+
+  <!-- Misión -->
+  <section id="mision" class="section white center">
+    <div class="container">
+      <h4>Misión</h4>
+      <img src="MISION.png" alt="Equipo institucional" class="responsive-img acerca-img z-depth-2" />
+    </div>
+  </section>
+
+  <!-- Visión -->
+  <section id="vision" class="section grey lighten-5 center">
+    <div class="container">
+      <h4>Visión</h4>
+      <img src="VISION.png" alt="Equipo institucional" class="responsive-img acerca-img z-depth-2" />
+    </div>
+  </section>
+
+  <!-- Historia -->
+  <section id="historia" class="section white center">
+    <div class="container">
+      <h4>Historia</h4>
+      <img src="HISTORIA.png" alt="Equipo institucional" class="responsive-img acerca-img z-depth-2" />
+      <blockquote>
+        “Instruye al niño en su camino, y aun cuando fuere viejo no se apartará de él.”
+        <br />
+        <em>Proverbios 22:6</em>
+      </blockquote>
+    </div>
+  </section>
+  
+  <!-- Símbolos -->
+  <!-- Símbolos -->
+  <section id="simbolos" class="section grey lighten-5">
+     <h4 class="grey lighten-5 center">Simbolos</h4>
+    <div class="container simbolos-flex">
+    
+    <!-- Columna izquierda: Lema -->
+    <div class="simbolos-left">
+      <img src="noticia1.png" alt="Equipo institucional" class="responsive-img acerca-img z-depth-2" />
+      <h5 class="blue-text text-darken-3 lema-text">
+        “Fe, Amor y Ciencia”
+      </h5>
+      <p>
+        Nuestro lema representa los tres pilares fundamentales de la formación
+        integral que promueve la Corporación Educativa Antonio Ricaurte:
+      </p>
+        <ul class="browser-default">
+        <li><strong>Fe:</strong> fundamento espiritual y guía moral.</li>
+        <li><strong>Amor:</strong> motor que impulsa el servicio y la fraternidad.</li>
+        <li><strong>Ciencia:</strong> búsqueda constante del conocimiento para transformar el entorno.</li>
+      </ul>
+    </div>
+
+    <!-- Columna derecha: Escudo, Logo y Bandera -->
+    <div class="simbolos-right center-align">
+      <div class="simbolo-item">
+        <img src="LOGO.png" alt="Escudo Institucional" />
+        <p><strong>Escudo Institucional</strong></p>
+      </div>
+
+
+      <div class="simbolo-item">
+        <img src="bandera.png" alt="Bandera Institucional" />
+        <p><strong>Bandera Institucional</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Himno -->
+  <section id="himno" class="section white center">
+  <div class="container">
+    <h4>Himno Institucional</h4>
+
+     <img src="noticia2.png" alt="Equipo institucional" class="responsive-img acerca-img z-depth-2" />
+    
+    <p><em>Autora: Lilia Doria de Pineda</em></p>
+
+    <!-- Botón para abrir el video -->
+    <a class="btn blue darken-3 modal-trigger" href="#modal-himno">
+      <i class="material-icons left">play_circle_filled</i>Reproducir Himno
+    </a>
+  </div>
+
+ <!-- Modal del Himno Institucional -->
+<div id="modal-himno" class="modal modal-himno">
+  <div class="modal-content center-align">
+    <h5>Himno Institucional</h5>
+    <div class="video-container">
+      <iframe
+        width="560"
+        height="315"
+        src="https://youtu.be/eBVnoghs9rk" 
+        title="Himno Institucional - Corporación Educativa Antonio Ricaurte"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+ 
+
+</section>
+
+
+
+<!-- Modal del Himno Institucional -->
+<div id="modal-himno" class="modal modal-himno">
+  <div class="modal-content center-align">
+    <h5>Himno Institucional</h5>
+    <video id="videoHimno" controls>
+      <source src="HIMNO.mp4" type="video/mp4">
+      Tu navegador no soporta la reproducción de video.
+    </video>
+  </div>
+</div>
+
+
+  <!-- Normatividad -->
+  <section id="normatividad" class="section grey lighten-5 center">
+    <div class="container">
+      <h4>Normatividad</h4>
+      <p>
+        La Corporación Educativa Antonio Ricaurte promueve el cumplimiento de los valores institucionales
+        y las normas que garantizan una sana convivencia, respeto mutuo y desarrollo integral.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <!-- ===================================== -->
+<!--  SECCIÓN DE CONTACTO -->
+<!-- ===================================== -->
+<section id="contacto" class="section  lighten-5 center">
+  <div class="container">
+    <h4 class="blue-text text-darken-3">Contáctanos</h4>
+    <p>¡Síguenos en nuestras redes sociales o escríbenos directamente por WhatsApp!</p>
+
+    <!-- Íconos de redes -->
+    <div class="social-icons">
+      <a href="https://www.facebook.com/" target="_blank" class="social-icon facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" class="social-icon instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://twitter.com/" target="_blank" class="social-icon twitter">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+    </div>
+
+    <!-- Botón de WhatsApp -->
+    <div class="whatsapp-btn">
+      <a href="https://wa.me/573044017219?text=Hola%20Corporación%20Educativa%20Antonio%20Ricaurte,%20quisiera%20obtener%20más%20información." 
+         target="_blank" 
+         class="btn-large green darken-2 waves-effect waves-light">
+        <i class="fab fa-whatsapp left"></i> Escribir por WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+ <footer class="page-footer blue darken-3">
+  <div class="container center-align">
+    <img src="LOGO.png" alt="Escudo Colegio" class="footer-logo" />
+    <p>© 2025 Corporación Educativa Antonio Ricaurte</p>
+    <p>304-401-7219 | notascear@gmail.com</p>
+    <p><em>Fe, Ciencia y Virtud</em></p>
+  </div>
+</footer>
+
+
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script>
+  // --- PRELOADER ---
+  window.addEventListener("load", function () {
+    const preloader = document.getElementById("preloader");
+    setTimeout(() => {
+      preloader.classList.add("hidden");
+    }, 1800);
+  });
+
+  // --- INICIALIZACIONES ---
+  document.addEventListener("DOMContentLoaded", function () {
+   // --- Sidenav y cierre automático ---
+const sideNav = document.querySelector('.sidenav');
+const sideNavInstance = M.Sidenav.init(sideNav);
+
+const sideLinks = document.querySelectorAll('.sidenav a');
+sideLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    sideNavInstance.close();
+  });
+});
+
+
+    // Modales
+    const modals = document.querySelectorAll(".modal");
+    M.Modal.init(modals);
+
+    // Carrusel del HERO (solo este usa Materialize)
+    const heroCarousel = document.querySelectorAll(".hero .carousel");
+    if (heroCarousel.length) {
+      const heroInstances = M.Carousel.init(heroCarousel, {
+        fullWidth: true,
+        indicators: false,
+        duration: 400,
+        dist: 0
+      });
+
+      // Rotación automática del HERO
+      setInterval(() => {
+        heroInstances.forEach(instance => instance.next());
+      }, 3500);
+    }
+
+    // --- MODAL de imágenes del HERO ---
+    const heroModalElem = document.querySelector("#modal-imagen");
+    const heroModalInstance = M.Modal.init(heroModalElem, { endingTop: "10%" });
+    const heroImgs = document.querySelectorAll(".hero-image .carousel img");
+    const heroModalImg = document.querySelector("#imagen-modal");
+
+    heroImgs.forEach(img => {
+      img.addEventListener("click", () => {
+        heroModalImg.src = img.src;
+        heroModalInstance.open();
+      });
+    });
+
+    // --- CARRUSEL FADE DE NOTICIAS ---
+    const slides = document.querySelectorAll(".fade-slide");
+    let index = 0;
+
+    if (slides.length > 0) {
+      setInterval(() => {
+        slides[index].classList.remove("active");
+        index = (index + 1) % slides.length;
+        slides[index].classList.add("active");
+      }, 4000);
+
+      // Modal de noticias
+      const modalNoticia = document.querySelector("#modal-noticia");
+      const modalNoticiaInstance = M.Modal.init(modalNoticia, { dismissible: true });
+      const modalImg = document.querySelector("#imagen-noticia-modal");
+      const modalDesc = document.querySelector("#descripcion-noticia");
+
+      slides.forEach(slide => {
+        slide.addEventListener("click", () => {
+          modalImg.src = slide.querySelector("img").src;
+          modalDesc.textContent = slide.dataset.desc;
+          modalNoticiaInstance.open();
+        });
+      });
+    }
+
+    // --- MODAL DEL HIMNO ---
+    const modalHimno = document.getElementById("modal-himno");
+    const video = document.getElementById("videoHimno");
+    if (modalHimno && video) {
+      M.Modal.init(modalHimno, {
+        onCloseEnd: () => video.pause()
+      });
+    }
+
+    // --- PREVENIR ERROR DE CLIC FUERA DEL CARRUSEL ---
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(".carousel")) {
+        try {
+          const active = document.querySelector(".carousel.active");
+          if (active && active.M_Carousel) {
+            active.M_Carousel.destroy();
+          }
+        } catch (err) {
+          // Ignorar error
+        }
+      }
+    });
+  });
+</script>
+
+
+  <!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/573044017291?text=Hola%20Corporación%20Educativa%20Antonio%20Ricaurte,%20quisiera%20obtener%20más%20información."
+   class="whatsapp-float"
+   target="_blank"
+   title="Escríbenos por WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
